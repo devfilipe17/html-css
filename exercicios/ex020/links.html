@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    a{
+      color: red;
+    }
+
+    a:visited{
+      color:orange
+    }
+
+    a:hover{
+      color: black;
+      text-decoration: none;
+    }
+
+    a:active{
+      color: yellow;
+    }
+
+    .especial{
+      background-color: blue;
+      
+    }
+
+    .especial::before{
+      content: '<<';
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    .especial::after{
+      content: '>>';
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>personalizando links</h1>
+  <ul>
+    <li><a href="https://youtube.com/">Repositorio github</a></li>
+    <li><a href="https://github.com/gustavoguanabara" class="especial">Canal do youtube</a></li>
+    <li><a href="https://www.twitch.tv/">Site do curso em video</a></li>
+  </ul>
+
+  <p><a href="hove.html">hover</a></p>
+  <p><a href="pseudo01.html">pseudo</a></p>
+</body>
+</html>

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgba(98, 220, 98, 0.801);
+}
+
+header{
+  background: linear-gradient(360deg, green, lightgreen );
+  font-family: Bebas Neue , cursive;
+  color: white;
+}
+
+header>h1{
+  text-align: center;
+  padding-top:1em;
+  font-weight: bold;
+}
+
+header>p{
+  text-align: center;
+  margin: 1em;
+  font-weight: lighter;
+  color: rgb(228, 222, 222);
+}
+
+nav{
+  padding: 10px;
+  font-weight: bold;
+}
+
+nav>a{
+  text-decoration: none;
+  padding: 5px;
+  color: white;
+}
+
+article{
+  background-color: white;
+  margin: 0px 50px;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+article>h1, h3{
+  font-family: 'robotic';
+  color: rgb(21, 130, 21);
+  margin: 0.5em 0em 0.5em 0em;
+}
+
+article>h3{
+  background:linear-gradient(to right, rgba(0, 128, 0, 0.19), white);
+  font-weight: bolder;
+}
+
+article>p>span{
+  color: rgb(47, 130, 47);
+}
+
+article>p>a{
+  text-decoration: none;
+  color: rgb(58, 149, 58);
+}
+
+article>p{
+  text-indent: 1.5em;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#droids>img{
+  width: 514px;
+  height: auto;
+  margin: 5px 10px;
+}
+
+#irina>img{
+  width: 530px;
+  padding: 5px 0px 5px 0px;
+}
+
+#bugdroid{
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+}
+
+#bugdroid>img{
+  width: 250px;
+  height: 162px;
+}
+
+#video{
+  width: 100%;
+  background-color: rgb(15, 80, 15);
+}
+section{
+  background-color: white;
+  margin: 0px 50px;
+}
+
+#video>iframe{
+  margin: 15px 25px 15px 25px;
+}
+
+
+@font-face {
+  font-family: 'robotic';
+  src: url('pacote-projeto-d010/fontes/idroid.otf'); format(opentype);
+}

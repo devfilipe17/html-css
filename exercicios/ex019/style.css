@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:#66F295;
+  font-family: sans-serif;
+}
+
+h1{
+  color: #8F2751;
+}
+
+#principal{
+  text-align: center;
+  background-color: #67DB6C;
+  color: white;
+}
+
+h2{
+  color: #8F2751;
+}
+
+.basico{
+  color: #ff0f0f;
+}
+
+.intermediario{
+  color: #4400ff;
+}
+
+.avançado{
+  font-weight: bolder;
+  color: #214c4db9;
+}
+
+
+.destaque{
+  background-color: rgba(206, 206, 85, 0.744);
+}
