@@ -6,27 +6,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    body{
-      height: 100vh;
-      background-image: url('imagens/espaco.jpg');
+    *{
+      margin: 0;
+      padding: 0;
+    }
+
+    #container{
+      height:100vh;
+      width: 100vw;
+      position: relative;
+      /*background-image: url('imagens/espaco.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
-      margin: auto;
+      background-attachment: fixed;
+      */
+
+      background: url('imagens/espaco.jpg') center center no-repeat fixed;
+      background-size: cover;
     }
 
-    .astro {
-      width: 100vw;
-      height: 100vh;
+    #conteudo{
+      width: 500px;
+      height: 508px;
       background-image: url('imagens/astronauta.png');
-      background-repeat: no-repeat;
       background-position: center 
       center;
-      background-size: auto;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      margin: auto;
+
+      position: absolute;
+      left: 50%;
+      top: 50%;
+
+      transform: translate(-50%, -50%);
     }
   </style>
 </head>
 <body>
-  <div class="astro"></div>
+  <section id="container">
+    <article id="conteudo"></article>
+  </section>
 </body>
 </html>
